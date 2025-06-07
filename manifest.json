@@ -1,18 +1,39 @@
 {
-  "name": "Aplikasi Visualisasi Data Cuaca",
-  "description": "Aplikasi interaktif berbasis Shiny untuk visualisasi data cuaca menggunakan file weather.csv. Pengguna dapat memilih variabel dan jenis plot (scatter, line, bar, atau tabel data).",
-  "version": "1.0.0",
-  "author": "Rafi Izzatul Rizqu Faris",
-  "email": "risqufaris@gmail.com",
-  "dependencies": [
-    "shiny",
-    "plotly",
-    "DT"
-  ],
-  "data_file": "weather.csv",
-  "entry_point": "main.R",
-  "created_at": "2025-06-07",
-  "shinyapps_io": {
-    "compatible": true,
-  }
+  "version": 1,
+  "locale": "en_US",
+  "platform": {
+    "OS.type": "unix",
+    "file.sep": "/",
+    "version.string": "R version 4.3.1 (2023-06-16)",
+    "sysname": "Darwin",
+    "release": "23.4.0"
+  },
+  "metadata": {
+    "appmode": "shiny",
+    "primary_document": "main.R",
+    "content_category": "shiny",
+    "has_parameters": false
+  },
+  "packages": {
+    "shiny": {
+      "Package": "shiny",
+      "Version": "1.8.1"
+    },
+    "plotly": {
+      "Package": "plotly",
+      "Version": "4.10.3"
+    },
+    "DT": {
+      "Package": "DT",
+      "Version": "0.32"
+    },
+    "rsconnect": {
+      "Package": "rsconnect",
+      "Version": "1.1.0"
+    }
+  },
+  "files": [
+    "main.R",
+    "weather.csv"
+  ]
 }
